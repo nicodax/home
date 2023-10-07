@@ -1,0 +1,6 @@
+*foreground: #E8D7F1
+*background: #0E273C
+xterm*faceName: MesloLGS NF
+XTerm.vt100.translations: #override \n\
+    Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+    Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
